@@ -1,0 +1,178 @@
+@import "base";
+
+.other {
+  background-color: $color-white;
+  border: 1px solid $color-border;
+  position: relative;
+  &__number {
+    position: absolute;
+    &--lanthanides {
+      top: 1%;
+      left: 30%;
+    }
+    &--actinides {
+      top: 1%;
+      left: 25%;
+    }
+    &--heading {
+      font-size: 20px;
+      font-weight: 500;
+      @include respond (tab-land) {
+        font-size: 15px;
+      }
+      @include respond (tab-port) {
+        font-size: 10px;
+      }
+      @include respond (phone) {
+        font-size: 8px;
+        font-weight: 700;
+      }
+    }
+  }
+  &__name {
+    font-size: 15px;
+    position: absolute;
+    bottom: 1%;
+    @include respond (tab-land) {
+      font-size: 10px;
+    }
+    @include respond (tab-port) {
+      font-size: 7px;
+    }
+    @include respond (phone) {
+      font-size: 5px;
+      font-weight: 700;
+    }
+    &--actinides {
+      bottom: 1%;
+      left: 3%;
+    }
+  }
+  &--lanthanides {
+    grid-column: 4;
+    grid-row: 9;
+    border-bottom: none;
+    border-right: none;
+    background-color: $color--lanthanides;
+  }
+  &--actinides {
+    grid-column: 4;
+    grid-row: 11;
+    border-bottom: none;
+    border-right: none;
+    background-color: $color--actinides;
+  }
+  &--itemOne {
+    grid-column: 3 / span 6;
+    grid-row: 2;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemTwo {
+    grid-column: 10;
+    grid-row: 6;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+  }
+  &--itemThree {
+    grid-column: 11;
+    grid-row: 6;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+  }
+  &--itemFour {
+    grid-column: 9;
+    grid-row: 8;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemFive {
+    grid-column: 10;
+    grid-row: 8;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+  }
+  &--itemSix {
+    grid-column: 11;
+    grid-row: 8;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+  }
+  &--itemSeven {
+    grid-column: 9;
+    grid-row: 10;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemEight {
+    grid-column: 10;
+    grid-row: 10;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+  }
+  &--itemNine {
+    grid-column: 11;
+    grid-row: 10;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+  }
+  &--itemTen {
+    grid-column: 12;
+    grid-row: 5;
+    border-bottom: none;
+  }
+  &--itemEleven {
+    grid-column: 12;
+    grid-row: 7;
+    border-bottom: none;
+  }
+  &--itemTwelve {
+    grid-column: 12;
+    grid-row: 9;
+    border-bottom: none;
+  }
+  &--itemThirteen {
+    grid-column: 12;
+    grid-row: 11;
+    border-bottom: none;
+  }
+  &--itemFourteen {
+    grid-column: 11;
+    grid-row: 11;
+    border-right: none;
+    border-bottom: none;
+    background-color: $color-elementsD;
+  }
+  &--itemFifteen {
+    grid-column: 2;
+    grid-row: 13;
+    border-right: none;
+    border-left: none;
+  }
+  &--itemSixteen {
+    grid-column: 3;
+    grid-row: 13;
+    border-right: none;
+  }
+  &--itemSeventeen {
+    grid-column: 4;
+    grid-row: 13;
+    border-right: none;
+  }
+  &--itemEighteen {
+    grid-column: 9 / span 12;
+    grid-row: 13;
+  }
+  &--itemNineteen {
+    grid-column: 9;
+    grid-row: 6;
+    border-right: none;
+    border-bottom: none;
+  }
+}

@@ -1,0 +1,278 @@
+@import "base";
+
+.description {
+  border-top: 1px solid $color-border;
+  border-left: 1px solid $color-border;
+  border-bottom: 1px solid $color-border;
+  background-color: $color-description;
+  position: relative;
+  &__box {
+    background-color: $color-elementsS;
+    width: 170px;
+    height: 80px;
+    position: absolute;
+    top: 35%;
+    left: 37%;
+    @include respond (tab-land) {
+      width: 110px;
+      height: 60px;
+    }
+    @include respond (tab-port) {
+      width: 80px;
+      height: 40px;
+    }
+    @include respond (phone) {
+      width: 55px;
+      height: 25px;
+    }
+  }
+  &__symbol{
+    position: absolute;
+    top: -5%;
+    left: 2%;
+    &--heading{
+      font-size: 30px;
+      font-weight: 400;
+      @include respond (tab-land) {
+        font-size: 20px;
+      }
+      @include respond (tab-port) {
+        font-size: 14px;
+      }
+      @include respond (phone) {
+        font-size: 10px;
+      }
+    }
+  }
+  &__title {
+    position: absolute;
+    bottom: 1%;
+    left: 2%;
+    &--heading {
+      font-size: 16px;
+      font-weight: 400;
+      @include respond (tab-land) {
+        font-size: 12px;
+      }
+      @include respond (tab-port) {
+        font-size: 10px;
+      }
+      @include respond (phone) {
+        font-size: 7px;
+      }
+    }
+  }
+  &__number {
+    position: absolute;
+    right: 4%;
+    &--heading {
+      font-size: 20px;
+      font-weight: 500;
+      @include respond (tab-land) {
+        font-size: 15px;
+      }
+      @include respond (tab-port) {
+        font-size: 12px;
+      }
+      @include respond (phone) {
+        font-size: 8px;
+      }
+    }
+  }
+  &__mass{
+    position: absolute;
+    right: 4%;
+    top: 30%;
+    &--heading {
+      font-size: 15px;
+      font-weight: 400;
+      @include respond (tab-land) {
+        font-size: 12px;
+      }
+      @include respond (tab-port) {
+        font-size: 10px;
+      }
+      @include respond (phone) {
+        font-size: 7px;
+      }
+    }
+  }
+  &__config {
+    position: absolute;
+    top: 45%;
+    left: 2%;
+    &--heading {
+      font-size: 15px;
+      font-weight: 400;
+      @include respond (tab-land) {
+        font-size: 12px;
+      }
+      @include respond (tab-port) {
+        font-size: 10px;
+      }
+      @include respond (phone) {
+        font-size: 7px;
+      }
+    }
+  }
+  &--item {
+    grid-column: 9 / span 3;
+    grid-row: 2 / span 3;
+    border-bottom: none;
+  }
+  &__lineNumber {
+    position: absolute;
+    top: 30%;
+    right: 11.5%;
+    width: 30px;
+    border: 1px solid $color-black;
+    border-left: none;
+    border-top: none;
+    transform: rotate(90deg);
+    @include respond (tab-land) {
+      width: 20px;
+      right: 17%;
+    }
+    @include respond (tab-port) {
+      width: 12px;
+      right: 7%;
+    }
+  }
+  &--itemSerial {
+    position: absolute;
+    top: 16%;
+    right: 1%;
+  }
+  &__lineMass {
+    position: absolute;
+    bottom: 35%;
+    right: 10%;
+    width: 60px;
+    border: 1px solid $color-black;
+    border-left: none;
+    border-top: none;
+    transform: rotate(90deg);
+    @include respond (tab-land) {
+      width: 35px;
+      right: 10%;
+      bottom: 30%;
+      transform: rotate(45deg);
+    }
+    @include respond (tab-port) {
+      width: 15px;
+    }
+  }
+  &--itemMass {
+    position: absolute;
+    bottom: 4%;
+    right: 2%;
+  }
+  &__lineConfig {
+    position: absolute;
+    top: 53.5%;
+    left: 32%;
+    width: 20px;
+    border: 1px solid $color-black;
+    border-left: none;
+    border-top: none;
+    @include respond (tab-land) {
+      width: 15px;
+    }
+    @include respond (tab-port) {
+      width: 8px;
+      top: 57%;
+    }
+  }
+  &--itemConfig {
+    position: absolute;
+    top: 40%;
+    left: 1%;
+  }
+  &__lineTopName {
+    position: absolute;
+    bottom: 25%;
+    left: 44%;
+    width: 40px;
+    border: 1px solid $color-black;
+    border-left: none;
+    border-top: none;
+    transform: rotate(90deg);
+    @include respond (tab-land) {
+      width: 30px;
+      transform: rotate(-45deg);
+      left: 30%;
+    }
+    @include respond (tab-port) {
+      width: 17px;
+    }
+  }
+  &__lineMiddleName {
+    position: absolute;
+    bottom: 16.5%;
+    left: 44%;
+    width: 20px;
+    border: 1px solid $color-black;
+    border-left: none;
+    border-top: none;
+    @include respond (tab-land) {
+      width: 0;
+      border: none;
+    }
+  }
+  &--itemName {
+    position: absolute;
+    bottom: 14%;
+
+  }
+  &--itemSymbol {
+    position: absolute;
+    top: 6%;
+  }
+  &__lineBottomSymbol {
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    width: 70px;
+    border: 1px solid $color-black;
+    border-left: none;
+    border-top: none;
+    transform: rotate(90deg);
+    @include respond (tab-land) {
+      width: 48px;
+      transform: rotate(45deg);
+      left: 25%;
+    }
+    @include respond (tab-port) {
+      width: 20px;
+    }
+  }
+  &__lineMiddleSymbol {
+    position: absolute;
+    top: 10.5%;
+    left: 39.4%;
+    width: 20px;
+    border: 1px solid $color-black;
+    border-left: none;
+    border-top: none;
+    @include respond (tab-land) {
+      width: 0;
+      border: none;
+    }
+  }
+  &--heading {
+    font-weight: 400;
+    font-size: 15px;
+    @include respond (tab-land) {
+      font-size: 11px;
+    }
+    @include respond (tab-port) {
+      font-size: 7px;
+      font-weight: 700;
+    }
+    @include respond (phone) {
+      font-size: 5px;
+      font-weight: 700;
+    }
+  }
+}
+

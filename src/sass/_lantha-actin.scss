@@ -1,0 +1,121 @@
+@import "base";
+
+.heading {
+  width: 100%;
+  text-align: center;
+  margin-bottom: -10px;
+  &--heading {
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 400;
+    @include respond (tab-land) {
+      font-size: 18px;
+    }
+    @include respond (tab-port) {
+      font-size: 14px;
+    }
+    @include respond (phone) {
+      font-size: 12px;
+    }
+  }
+}
+
+.box {
+  border: 1px solid $color-border;
+  background-color: $color--lanthanides;
+  padding: 10px;
+  position: relative;
+  &__symbol {
+    position: absolute;
+    top: 1%;
+    right: 1%;
+    &--heading {
+      font-size: 27px;
+      font-weight: 400;
+      @include respond (tab-land) {
+        font-size: 18px;
+      }
+      @include respond (tab-port) {
+        font-size: 14px;
+      }
+      @include respond (phone) {
+        font-size: 10px;
+      }
+    }
+  }
+  &__title {
+    position: absolute;
+    bottom: 1%;
+    right: 1%;
+    &--heading {
+      font-size: 15px;
+      font-weight: 700;
+      @include respond (tab-land) {
+        font-size: 10px;
+      }
+      @include respond (tab-port) {
+        font-size: 7px;
+      }
+      @include respond (phone) {
+        font-size: 6px;
+        font-weight: 700;
+      }
+    }
+  }
+  &__number {
+    position: absolute;
+    top: 6%;
+    left: 1%;
+    &--heading {
+      font-size: 20px;
+      font-weight: 400;
+      @include respond (tab-land) {
+        font-size: 13px;
+      }
+      @include respond (tab-port) {
+        font-size: 9px;
+      }
+      @include respond (phone) {
+        font-size: 8px;
+        font-weight: 700;
+      }
+    }
+  }
+  &__mass {
+    position: absolute;
+    top: 40%;
+    left: 1%;
+    &--heading {
+      font-size: 15px;
+      font-weight: 400;
+      @include respond (tab-land) {
+        font-size: 10px;
+      }
+      @include respond (tab-port) {
+        font-size: 7px;
+      }
+      @include respond (phone) {
+        font-size: 5px;
+        font-weight: 700;
+      }
+    }
+  }
+  &--right {
+    border-right: none;
+  }
+}
+.color {
+  background-color: $color--actinides;
+}
+.size {
+  font-size: 14px;
+  @include respond (tab-land) {
+    font-size: 9px;
+  }
+  @include respond (tab-port) {
+    font-size: 6px;
+  }
+  @include respond (phone) {
+    font-size: 5px;
+  }
+}

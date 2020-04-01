@@ -1,0 +1,67 @@
+@import "base";
+
+.compounds {
+  background-color: $color-white;
+  border: 1px solid $color-border;
+  position: relative;
+  &__heading {
+    font-size: 40px;
+    font-weight: 300;
+    @include respond (tab-land) {
+      font-size: 30px;
+    }
+    @include respond (tab-port) {
+      font-size: 20px;
+    }
+    @include respond (phone) {
+      font-size: 15px;
+    }
+  }
+  &__span {
+    font-size: 20px;
+    font-weight: 400;
+    @include respond (tab-port) {
+      font-size: 10px;
+    }
+  }
+  &__oneShift {
+    position: absolute;
+    top: 10%;
+    right: 23%;
+  }
+  &__twoShift {
+    position: absolute;
+    top: 10%;
+    right: 27%;
+  }
+  &__threeShift {
+    position: absolute;
+    top: 10%;
+    right: 25%;
+  }
+  &__fourShift {
+    position: absolute;
+    top: 10%;
+    right: 30%;
+  }
+  &--one {
+    grid-column: 5;
+    grid-row: 13;
+    border-right: none;
+  }
+  &--two {
+    grid-column: 6;
+    grid-row: 13;
+    border-right: none;
+  }
+  &--three {
+    grid-column: 7;
+    grid-row: 13;
+    border-right: none;
+  }
+  &--four {
+    grid-column: 8;
+    grid-row: 13;
+    border-right: none;
+  }
+}

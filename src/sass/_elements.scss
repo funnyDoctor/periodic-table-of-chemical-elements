@@ -1,0 +1,708 @@
+@import "base";
+//S elements
+.boxElementS {
+  background-color: $color-elementsS;
+  position: relative;
+  border: 1px solid $color-border;
+  &__symbol{
+    position: absolute;
+    top: -5%;
+    &--heading{
+      font-size: 35px;
+      font-weight: 400;
+      @include respond (tab-land) {
+        font-size: 23px;
+      }
+      @include respond (tab-port) {
+        font-size: 15px;
+      }
+      @include respond (phone) {
+        font-size: 10px;
+      }
+    }
+  }
+  &__title {
+    position: absolute;
+    bottom: 1%;
+    &--heading {
+      font-size: 16px;
+      @include respond (tab-land) {
+        font-size: 12px;
+      }
+      @include respond (tab-port) {
+        font-size: 9px;
+      }
+      @include respond (phone) {
+        font-size: 7px;
+      }
+    }
+  }
+  &__number {
+    position: absolute;
+    right: 2%;
+    &--heading {
+      font-size: 20px;
+      font-weight: 500;
+      @include respond (tab-land) {
+        font-size: 15px;
+      }
+      @include respond (tab-port) {
+        font-size: 12px;
+      }
+      @include respond (phone) {
+        font-size: 9px;
+      }
+    }
+  }
+  &__mass{
+    position: absolute;
+    right: 2%;
+    top: 30%;
+    &--heading {
+      font-size: 15px;
+      font-weight: 400;
+      @include respond (tab-land) {
+        font-size: 12px;
+      }
+      @include respond (tab-port) {
+        font-size: 10px;
+      }
+      @include respond (phone) {
+        font-size: 7px;
+      }
+    }
+  }
+  &--common {
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemHe {
+    grid-column: 12;
+    grid-row: 2;
+  }
+  &--itemLi {
+    grid-column: 2;
+    grid-row: 3;
+    border-right: none;
+    border-left: none;
+    border-bottom: none;
+  }
+  &--itemBe {
+    grid-column: 3;
+    grid-row: 3;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemNa {
+    grid-column: 2;
+    grid-row: 4;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemMg {
+    grid-column: 3;
+    grid-row: 4;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemK {
+    grid-column: 2;
+    grid-row: 5;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemCa {
+    grid-column: 3;
+    grid-row: 5;
+    border-right: none;
+    border-bottom: none;
+  }
+  &--itemRb {
+    grid-column: 2;
+    grid-row: 7;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemSr {
+    grid-column: 3;
+    grid-row: 7;
+    border-right: none;
+    border-bottom: none;
+  }
+  &--itemCs {
+    grid-column: 2;
+    grid-row: 9;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemBa {
+    grid-column: 3;
+    grid-row: 9;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemFr {
+    grid-column: 2;
+    grid-row: 11;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemRa {
+    grid-column: 3;
+    grid-row: 11;
+    border-bottom: none;
+    border-right: none;
+  }
+}
+
+//D elements
+.boxElementD {
+  background-color: $color-elementsD;
+  position: relative;
+  border: 1px solid $color-border;
+  &__symbol {
+    position: absolute;
+    top: -5%;
+    right: 2%;
+    &--heading {
+      font-size: 35px;
+      font-weight: 400;
+      @include respond (tab-land) {
+        font-size: 23px;
+      }
+      @include respond (tab-port) {
+        font-size: 15px;
+      }
+      @include respond (phone) {
+        font-size: 10px;
+      }
+    }
+  }
+  &__title {
+    position: absolute;
+    bottom: 1%;
+    right: 2%;
+    &--heading {
+      font-size: 16px;
+      @include respond (tab-land) {
+        font-size: 12px;
+      }
+      @include respond (tab-port) {
+        font-size: 9px;
+      }
+      @include respond (phone) {
+        font-size: 7px;
+      }
+    }
+  }
+  &__number {
+    position: absolute;
+    left: 2%;
+    &--heading {
+      font-size: 20px;
+      font-weight: 500;
+      @include respond (tab-land) {
+        font-size: 15px;
+      }
+      @include respond (tab-port) {
+        font-size: 12px;
+      }
+      @include respond (phone) {
+        font-size: 7px;
+      }
+      @include respond (phone) {
+        font-size: 9px;
+      }
+    }
+  }
+  &__mass {
+    position: absolute;
+    left: 2%;
+    top: 30%;
+    &--heading {
+      font-size: 15px;
+      font-weight: 400;
+      @include respond (tab-land) {
+        font-size: 12px;
+      }
+      @include respond (tab-port) {
+        font-size: 10px;
+      }
+      @include respond (phone) {
+        font-size: 7px;
+      }
+    }
+  }
+  &--itemSc {
+    grid-column: 4;
+    grid-row: 5;
+    border-right: none;
+    border-bottom: none;
+  }
+  &--itemTi {
+    grid-column: 5;
+    grid-row: 5;
+    border-right: none;
+    border-bottom: none;
+  }
+  &--itemV {
+    grid-column: 6;
+    grid-row: 5;
+    border-right: none;
+    border-bottom: none;
+  }
+  &--itemCr {
+    grid-column: 7;
+    grid-row: 5;
+    border-right: none;
+    border-bottom: none;
+  }
+  &--itemMn {
+    grid-column: 8;
+    grid-row: 5;
+    border-right: none;
+    border-bottom: none;
+  }
+  &--itemFe {
+    grid-column: 9;
+    grid-row: 5;
+    border-right: none;
+    border-bottom: none;
+  }
+  &--itemCo {
+    grid-column: 10;
+    grid-row: 5;
+    border-right: none;
+    border-bottom: none;
+  }
+  &--itemNi {
+    grid-column: 11;
+    grid-row: 5;
+    border-right: none;
+    border-bottom: none;
+  }
+  &--itemCu {
+    grid-column: 2;
+    grid-row: 6;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemZn {
+    grid-column: 3;
+    grid-row: 6;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemY {
+    grid-column: 4;
+    grid-row: 7;
+    border-right: none;
+    border-bottom: none;
+  }
+  &--itemZr {
+    grid-column: 5;
+    grid-row: 7;
+    border-right: none;
+    border-bottom: none;
+  }
+  &--itemNb {
+    grid-column: 6;
+    grid-row: 7;
+    border-right: none;
+    border-bottom: none;
+  }
+  &--itemMo {
+    grid-column: 7;
+    grid-row: 7;
+    border-right: none;
+    border-bottom: none;
+  }
+  &--itemTc {
+    grid-column: 8;
+    grid-row: 7;
+    border-right: none;
+    border-bottom: none;
+  }
+  &--itemRu {
+    grid-column: 9;
+    grid-row: 7;
+    border-right: none;
+    border-bottom: none;
+  }
+  &--itemRh {
+    grid-column: 10;
+    grid-row: 7;
+    border-right: none;
+    border-bottom: none;
+  }
+  &--itemPd {
+    grid-column: 11;
+    grid-row: 7;
+    border-right: none;
+    border-bottom: none;
+  }
+  &--itemAg {
+    grid-column: 2;
+    grid-row: 8;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemCd {
+    grid-column: 3;
+    grid-row: 8;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemHf {
+    grid-column: 5;
+    grid-row: 9;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemTa {
+    grid-column: 6;
+    grid-row: 9;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemW {
+    grid-column: 7;
+    grid-row: 9;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemRe {
+    grid-column: 8;
+    grid-row: 9;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemOs {
+    grid-column: 9;
+    grid-row: 9;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemIr {
+    grid-column: 10;
+    grid-row: 9;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemPt {
+    grid-column: 11;
+    grid-row: 9;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemAu {
+    grid-column: 2;
+    grid-row: 10;
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemHg {
+    grid-column: 3;
+    grid-row: 10;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemRf {
+    grid-column: 5;
+    grid-row: 11;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemDb {
+    grid-column: 6;
+    grid-row: 11;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemSg {
+    grid-column: 7;
+    grid-row: 11;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemBh {
+    grid-column: 8;
+    grid-row: 11;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemHs {
+    grid-column: 9;
+    grid-row: 11;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemMt {
+    grid-column: 10;
+    grid-row: 11;
+    border-bottom: none;
+    border-right: none;
+  }
+}
+
+//P elements
+
+.boxElementP {
+  background-color: $color-elementsP;
+  position: relative;
+  border: 1px solid $color-border;
+  &__symbol{
+    position: absolute;
+    top: -5%;
+    &--heading{
+      font-size: 35px;
+      font-weight: 400;
+      @include respond (tab-land) {
+        font-size: 23px;
+      }
+      @include respond (tab-port) {
+        font-size: 15px;
+      }
+      @include respond (phone) {
+        font-size: 10px;
+      }
+    }
+  }
+  &__title {
+    position: absolute;
+    bottom: 1%;
+    &--heading {
+      font-size: 16px;
+      @include respond (tab-land) {
+        font-size: 12px;
+      }
+      @include respond (tab-port) {
+        font-size: 9px;
+      }
+      @include respond (phone) {
+        font-size: 7px;
+      }
+    }
+  }
+  &__number {
+    position: absolute;
+    right: 2%;
+    &--heading {
+      font-size: 20px;
+      font-weight: 500;
+      @include respond (tab-land) {
+        font-size: 15px;
+      }
+      @include respond (tab-port) {
+        font-size: 12px;
+      }
+      @include respond (phone) {
+        font-size: 9px;
+      }
+    }
+  }
+  &__mass{
+    position: absolute;
+    right: 2%;
+    top: 30%;
+    &--heading {
+      font-size: 15px;
+      font-weight: 400;
+      @include respond (tab-land) {
+        font-size: 12px;
+      }
+      @include respond (tab-port) {
+        font-size: 10px;
+      }
+      @include respond (phone) {
+        font-size: 7px;
+      }
+    }
+  }
+  &--itemB {
+    grid-column: 4;
+    grid-row: 3;
+    border-bottom: none;
+    border-right: none;
+
+  }
+  &--itemC {
+    grid-column: 5;
+    grid-row: 3;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemN {
+    grid-column: 6;
+    grid-row: 3;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemO {
+    grid-column: 7;
+    grid-row: 3;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemF {
+    grid-column: 8;
+    grid-row: 3;
+    border-right: none;
+    border-bottom: none;
+  }
+  &--itemNe {
+    grid-column: 12;
+    grid-row: 3;
+    border-top: none;
+    border-bottom: none;
+  }
+  &--itemAl {
+    grid-column: 4;
+    grid-row: 4;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemSi {
+    grid-column: 5;
+    grid-row: 4;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemP {
+    grid-column: 6;
+    grid-row: 4;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemS {
+    grid-column: 7;
+    grid-row: 4;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemCl {
+    grid-column: 8;
+    grid-row: 4;
+    border-right: none;
+    border-bottom: none;
+  }
+  &--itemAr {
+    grid-column: 12;
+    grid-row: 4;
+    border-bottom: none;
+  }
+  &--itemGa {
+    grid-column: 4;
+    grid-row: 6;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemGe {
+    grid-column: 5;
+    grid-row: 6;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemAs {
+    grid-column: 6;
+    grid-row: 6;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemSe {
+    grid-column: 7;
+    grid-row: 6;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemBr {
+    grid-column: 8;
+    grid-row: 6;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemKr {
+    grid-column: 12;
+    grid-row: 6;
+    border-bottom: none;
+  }
+  &--itemIn {
+    grid-column: 4;
+    grid-row: 8;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemSn {
+    grid-column: 5;
+    grid-row: 8;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemSb {
+    grid-column: 6;
+    grid-row: 8;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemTe {
+    grid-column: 7;
+    grid-row: 8;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemI {
+    grid-column: 8;
+    grid-row: 8;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemXe {
+    grid-column: 12;
+    grid-row: 8;
+    border-bottom: none;
+  }
+  &--itemTl {
+    grid-column: 4;
+    grid-row: 10;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemPb {
+    grid-column: 5;
+    grid-row: 10;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemBi {
+    grid-column: 6;
+    grid-row: 10;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemPo {
+    grid-column: 7;
+    grid-row: 10;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemAt {
+    grid-column: 8;
+    grid-row: 10;
+    border-bottom: none;
+    border-right: none;
+  }
+  &--itemRn {
+    grid-column: 12;
+    grid-row: 10;
+    border-bottom: none;
+  }
+}

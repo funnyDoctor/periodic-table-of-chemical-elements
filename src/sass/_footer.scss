@@ -1,0 +1,86 @@
+@import "base";
+
+.footer {
+  position: relative;
+  padding: 10px;
+  &__left {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  &__box {
+    border: 1px solid $color-border;
+    width: 60px;
+    height: 30px;
+    margin-right: 5px;
+    @include respond (tab-land) {
+      width: 35px;
+      height: 17px;
+    }
+    @include respond (tab-port) {
+      width: 30px;
+      height: 14px;
+    }
+    @include respond (phone) {
+      width: 20px;
+      height: 10px;
+    }
+  }
+  &__heading {
+    font-size: 20px;
+    font-weight: 300;
+    @include respond (tab-land) {
+      font-size: 14px;
+    }
+    @include respond (tab-port) {
+      font-size: 10px;
+    }
+  }
+  &__boxHeading {
+    margin-right: 5px;
+  }
+  &__wrapper {
+    display: flex;
+    flex-flow: row nowrap;
+    &--l {
+      background-color: $color--lanthanides;
+      flex-grow: 5;
+      border-right: 1px solid $color-border;
+    }
+    &--a {
+      flex-grow: 5;
+      background-color: $color--actinides;
+    }
+  }
+  &__copy {
+    margin-left: 250px;
+    @include respond (tab-port) {
+      margin-left: 30px;
+    }
+    &--heading {
+      font-size: 20px;
+      font-weight: 300;
+      @include respond (tab-land) {
+        margin-left: 20px;
+        font-size: 15px;
+      }
+      @include respond (tab-port) {
+        font-size: 10px;
+        margin-left: 0;
+      }
+    }
+    &--span {
+      font-weight: 300;
+    }
+  }
+}
+
+.colorS {
+  background-color: $color-elementsS;
+}
+.colorP {
+  background-color: $color-elementsP;
+}
+.colorD {
+  background-color: $color-elementsD;
+}

@@ -1,0 +1,29 @@
+@import './base';
+
+.header {
+  min-height: 5vh;
+  background-color: $color-primary;
+  &__box {
+    text-align: center;
+  }
+  &__heading {
+    font-family: $font-primary;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 200;
+    color: $color-white;
+    text-transform: uppercase;
+    @include respond (tab-land) {
+     font-size: 22px;
+    }
+    @include respond (tab-port) {
+      font-size: 15px;
+    }
+    @include respond (phone) {
+      font-size: 12px;
+    }
+  }
+  &__span {
+    margin-right: 5px;
+  }
+}

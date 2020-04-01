@@ -1,0 +1,238 @@
+@import "base";
+
+.boxHorizontal {
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: $color-white;
+  &__period {
+    position: relative;
+    border: 1px solid $color-border;
+    flex-grow: 6;
+    &--border {
+      border-bottom: none;
+      border-right: none;
+    }
+    &--none {
+      border-bottom: none;
+      border-right: none;
+      border-top: none;
+    }
+    &--borderOxide {
+      border-bottom: none;
+    }
+    &--heading {
+      font-size: 13px;
+      position: absolute;
+      top: 35%;
+      left: 8%;
+      @include respond (tab-land) {
+        font-size: 9px;
+      }
+      @include respond (tab-port) {
+        font-size: 6px;
+        font-weight: 700;
+      }
+    }
+    &--primary {
+      font-size: 13px;
+      position: absolute;
+      top: 35%;
+      left: 40%;
+      @include respond (tab-land) {
+        font-size: 11px;
+      }
+      @include respond (tab-port) {
+        font-size: 9px;
+      }
+    }
+    &--common {
+      font-size: 13px;
+      position: absolute;
+      bottom: -10%;
+      left: 40%;
+      @include respond (tab-land) {
+        font-size: 11px;
+      }
+      @include respond (tab-port) {
+        font-size: 9px;
+      }
+    }
+    &--oxide {
+      font-size: 20px;
+      font-weight: 400;
+      @include respond (tab-land) {
+        font-size: 15px;
+      }
+      @include respond (tab-port) {
+        font-size: 12px;
+      }
+      @include respond (phone) {
+        font-size: 10px;
+      }
+    }
+    &--hydrogen {
+      font-size: 17px;
+      font-weight: 400;
+      @include respond (tab-land) {
+        font-size: 12px;
+      }
+      @include respond (tab-port) {
+        font-size: 8px;
+        font-weight: 700;
+      }
+      @include respond (phone) {
+        font-size: 7px;
+        font-weight: 700;
+      }
+    }
+  }
+  &__row {
+    flex-grow: 4;
+    position: relative;
+    border: 1px solid $color-border;
+    &--border {
+      border-bottom: none;
+    }
+    &--heading {
+      font-size: 13px;
+      position: absolute;
+      top: 35%;
+      left: 15%;
+      @include respond (tab-land) {
+        font-size: 9px;
+      }
+      @include respond (tab-port) {
+        font-size: 6px;
+        font-weight: 700;
+      }
+    }
+    &--primary {
+      font-size: 13px;
+      position: absolute;
+      top: 35%;
+      left: 40%;
+      @include respond (tab-land) {
+        font-size: 11px;
+      }
+      @include respond (tab-port) {
+        font-size: 9px;
+      }
+    }
+  }
+  &--itemOne {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  &--itemTwo {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  &--itemThree {
+    grid-column: 1;
+    grid-row: 4;
+  }
+  &--itemFour {
+    grid-column: 1;
+    grid-row: 5;
+  }
+  &--itemFive {
+    grid-column: 1;
+    grid-row: 6;
+  }
+  &--itemSix {
+    grid-column: 1;
+    grid-row: 7;
+  }
+  &--itemSeven {
+    grid-column: 1;
+    grid-row: 8;
+  }
+  &--itemEight {
+    grid-column: 1;
+    grid-row: 9;
+  }
+  &--itemNine {
+    grid-column: 1;
+    grid-row: 10;
+  }
+  &--itemTen {
+    grid-column: 1;
+    grid-row: 11;
+  }
+  &--itemOxide {
+    grid-column: 1;
+    grid-row: 12;
+  }
+  &--itemHydrogen {
+    grid-column: 1;
+    grid-row: 13;
+  }
+}
+
+
+
+.boxVertical {
+  background-color: $color-white;
+  height: 100%;
+  &--item {
+    grid-column: 9 /span 12;
+    text-align: center;
+    background-color: $color-white;
+  }
+  &__period {
+    height: 48%;
+    border: 1px solid $color-border;
+    &--item {
+      position: absolute;
+      right: 40%;
+      font-size: 25px;
+      letter-spacing: 1px;
+      font-weight: 200;
+      @include respond (tab-land) {
+        font-size: 20px;
+      }
+      @include respond (tab-port) {
+        font-size: 15px;
+      }
+      @include respond (phone) {
+        font-size: 11px;
+      }
+    }
+    &--none {
+      border-left: none;
+      border-right: none;
+    }
+    &--eight {
+      border-left: none;
+    }
+  }
+  &__row {
+    height: 50%;
+    float: bottom;
+    position: relative;
+    border: 1px solid $color-border;
+    &--heading {
+      font-size: 17px;
+      position: absolute;
+      top: 25%;
+      left: 45%;
+      @include respond (tab-land) {
+        font-size: 11px;
+      }
+      @include respond (tab-port) {
+        font-size: 9px;
+      }
+    }
+    &--none {
+      border-top: none;
+      border-right: none;
+    }
+    &--one {
+      border-left: none;
+    }
+    &--eight {
+      border-top: none;
+    }
+  }
+}

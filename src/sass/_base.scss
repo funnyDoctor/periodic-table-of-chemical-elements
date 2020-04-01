@@ -1,0 +1,68 @@
+// COLOR VARIABLES
+$color-primary: rgb(7,27,82);
+$color-white: #fff;
+$color-black: #000;
+$color-elementsS: rgb(255, 102, 102);
+$color-elementsD: rgb(135,206,235);
+$color-elementsP: rgb(255,255,0);
+$color-description: rgb(173,216,230);
+$color--actinides: rgb(154,205,50);
+$color--lanthanides: rgb(173,255,47);
+$color-border: 	$color-black;
+// FONT VARIABLES
+$font-primary: "Courier New", Courier, monospace;
+$font-display: 'Josefin Sans', sans-serif;
+//$font-primary: 'Nunito',
+//sans-serif;
+
+//Container
+.containerElements {
+  padding: 10px;
+  //background-color: white;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(13, 6vw);
+}
+
+.otherElements {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(1, 5vw);
+}
+
+// MEDIA QUERY MANAGER
+
+//0 - 600px:      Phone
+//600 - 900px:    Tablet portrait
+//900 - 1200px:   Tablet landscape
+//[1200 - 1800] is where our normal styles apply
+//1800px + :      Big desktop
+//$breakpoint arguement choices:
+//- phone
+//- tab-port
+//- tab-land
+//- big-desktop
+
+@mixin respond($breakpoint) {
+  @if $breakpoint==phone {
+    @media only screen and (max-width: 600px) {
+      @content
+    };
+  }
+  @if $breakpoint==tab-port {
+    @media only screen and (max-width: 900px) {
+      @content
+    };
+  }
+  @if $breakpoint==tab-land {
+    @media only screen and (max-width: 1200px) {
+      @content
+    };
+  }
+  @if $breakpoint==big-desktop {
+    @media only screen and (min-width: 1800px) {
+      @content
+    };
+  }
+}
