@@ -30,7 +30,7 @@ const Description = () => {
                     <p className={'description--heading'}>Порядковый номер</p>
                 </div>
                 <div className={'description--itemName'}>
-                    <p className={'description--heading'}>Название элемента</p>
+                    <p className={'description--heading '}>Название элемента</p>
                 </div>
                 <div className={'description--itemMass'}>
                     <p className={'description--heading'}>Относительная <br/> атомная масса</p>

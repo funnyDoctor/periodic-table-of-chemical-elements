@@ -13,17 +13,44 @@
     position: absolute;
     top: 35%;
     left: 37%;
-    @include respond (tab-land) {
-      width: 110px;
+    @media only screen and(width: 1024px) {
+      width: 140px;
       height: 60px;
     }
-    @include respond (tab-port) {
-      width: 80px;
+    @media only screen and(width: 768px) {
+      width: 100px;
       height: 40px;
     }
-    @include respond (phone) {
-      width: 55px;
+    @media only screen and(width: 736px) {
+      width: 80px;
+      height: 40px;
+      left: 45%;
+    }
+    @media only screen and(width: 414px) {
+      width: 50px;
+      height: 30px;
+      left: 46%;
+      top: 33%;
+    }
+    @media only screen and(width: 667px) {
+      width: 80px;
+      height: 40px;
+      left: 46%;
+    }
+    @media only screen and(width: 375px) {
+      width: 40px;
+      height: 20px;
+      left: 46%;
+    }
+    @media only screen and(width: 684px) {
+      width: 80px;
+      height: 40px;
+      left: 46%;
+    }
+    @media only screen and(width: 412px) {
+      width: 50px;
       height: 25px;
+      left: 46%;
     }
   }
   &__symbol{
@@ -33,14 +60,29 @@
     &--heading{
       font-size: 30px;
       font-weight: 400;
-      @include respond (tab-land) {
-        font-size: 20px;
+      @media only screen and(width: 1024px) {
+        font-size: 23px;
       }
-      @include respond (tab-port) {
+      @media only screen and(width: 768px) {
+        font-size: 15px;
+      }
+      @media only screen and(width: 736px) {
         font-size: 14px;
       }
-      @include respond (phone) {
-        font-size: 10px;
+      @media only screen and(width: 414px) {
+        font-size: 9px;
+      }
+      @media only screen and(width: 667px) {
+        font-size: 14px;
+      }
+      @media only screen and(width: 375px) {
+        font-size: 6px;
+      }
+      @media only screen and(width: 684px) {
+        font-size: 13px;
+      }
+      @media only screen and(width: 412px) {
+        font-size: 8px;
       }
     }
   }
@@ -48,16 +90,34 @@
     position: absolute;
     bottom: 1%;
     left: 2%;
+    @media only screen and(width: 414px) {
+      bottom: -2%;
+    }
     &--heading {
       font-size: 16px;
       font-weight: 400;
-      @include respond (tab-land) {
-        font-size: 12px;
+      @media only screen and(width: 1024px) {
+        font-size: 13px;
       }
-      @include respond (tab-port) {
+      @media only screen and(width: 768px) {
         font-size: 10px;
       }
-      @include respond (phone) {
+      @media only screen and(width: 736px) {
+        font-size: 10px;
+      }
+      @media only screen and(width: 414px) {
+        font-size: 7px;
+      }
+      @media only screen and(width: 667px) {
+        font-size: 11px;
+      }
+      @media only screen and(width: 375px) {
+        font-size: 5.5px;
+      }
+      @media only screen and(width: 684px) {
+        font-size: 10px;
+      }
+      @media only screen and(width: 412px) {
         font-size: 7px;
       }
     }
@@ -68,14 +128,29 @@
     &--heading {
       font-size: 20px;
       font-weight: 500;
-      @include respond (tab-land) {
-        font-size: 15px;
+      @media only screen and(width: 1024px) {
+        font-size: 17px;
       }
-      @include respond (tab-port) {
+      @media only screen and(width: 768px) {
         font-size: 12px;
       }
-      @include respond (phone) {
-        font-size: 8px;
+      @media only screen and(width: 736px) {
+        font-size: 12px;
+      }
+      @media only screen and(width: 414px) {
+        font-size: 7px;
+      }
+      @media only screen and(width: 667px) {
+        font-size: 12px;
+      }
+      @media only screen and(width: 375px) {
+        font-size: 5.5px;
+      }
+      @media only screen and(width: 684px) {
+        font-size: 11px;
+      }
+      @media only screen and(width: 412px) {
+        font-size: 7px;
       }
     }
   }
@@ -83,17 +158,44 @@
     position: absolute;
     right: 4%;
     top: 30%;
+    @media only screen and(width: 736px) {
+      top: 50%;
+    }
+    @media only screen and(width: 667px) {
+      top: 43%;
+    }
+    @media only screen and(width: 375px) {
+      top: 43%;
+    }
+    @media only screen and(width: 412px) {
+      top: 43%;
+    }
     &--heading {
       font-size: 15px;
       font-weight: 400;
-      @include respond (tab-land) {
+      @media only screen and(width: 1024px) {
         font-size: 12px;
       }
-      @include respond (tab-port) {
+      @media only screen and(width: 768px) {
         font-size: 10px;
       }
-      @include respond (phone) {
+      @media only screen and(width: 736px) {
+        font-size: 10px;
+      }
+      @media only screen and(width: 414px) {
         font-size: 7px;
+      }
+      @media only screen and(width: 667px) {
+        font-size: 10px;
+      }
+      @media only screen and(width: 375px) {
+        font-size: 5px;
+      }
+      @media only screen and(width: 684px) {
+        font-size: 10px;
+      }
+      @media only screen and(width: 412px) {
+        font-size: 6px;
       }
     }
   }
@@ -101,17 +203,53 @@
     position: absolute;
     top: 45%;
     left: 2%;
+    @media only screen and(width: 1024px) {
+      top: 45%;
+    }
+    @media only screen and(width: 768px) {
+      top: 40%;
+    }
+    @media only screen and(width: 736px) {
+      top: 35%;
+    }
+    @media only screen and(width: 667px) {
+      top: 35%;
+    }
+    @media only screen and(width: 375px) {
+      top: 35%;
+    }
+    @media only screen and(width: 684px) {
+      top: 35%;
+    }
+    @media only screen and(width: 412px) {
+      top: 35%;
+    }
     &--heading {
       font-size: 15px;
       font-weight: 400;
-      @include respond (tab-land) {
-        font-size: 12px;
+      @media only screen and(width: 1024px) {
+        font-size: 13px;
       }
-      @include respond (tab-port) {
+      @media only screen and(width: 768px) {
         font-size: 10px;
       }
-      @include respond (phone) {
+      @media only screen and(width: 736px) {
+        font-size: 11px;
+      }
+      @media only screen and(width: 414px) {
         font-size: 7px;
+      }
+      @media only screen and(width: 667px) {
+        font-size: 10px;
+      }
+      @media only screen and(width: 375px) {
+        font-size: 5px;
+      }
+      @media only screen and(width: 684px) {
+        font-size: 10px;
+      }
+      @media only screen and(width: 412px) {
+        font-size: 6px;
       }
     }
   }
@@ -129,19 +267,74 @@
     border-left: none;
     border-top: none;
     transform: rotate(90deg);
-    @include respond (tab-land) {
+    @media only screen and(width: 1024px) {
       width: 20px;
-      right: 17%;
-    }
-    @include respond (tab-port) {
-      width: 12px;
       right: 7%;
+    }
+    @media only screen and(width: 768px) {
+      width: 14px;
+      right: 8%;
+    }
+    @media only screen and(width: 736px) {
+      width: 10px;
+      right: 10%;
+    }
+    @media only screen and(width: 414px) {
+      width: 6px;
+      right: 3%;
+    }
+    @media only screen and(width: 667px) {
+      width: 14px;
+      right: 3.8%;
+    }
+    @media only screen and(width: 375px) {
+      width: 6px;
+      right: 8%;
+    }
+    @media only screen and(width: 684px) {
+      width: 14px;
+      right: 6%;
+    }
+    @media only screen and(width: 412px) {
+      width: 10px;
+      right: 1%;
+      top: 25%;
     }
   }
   &--itemSerial {
     position: absolute;
     top: 16%;
     right: 1%;
+    @media only screen and(width: 736px) {
+      width: 38%;
+      text-align: center;
+      top: 6%;
+    }
+    @media only screen and(width: 414px) {
+      width: 38%;
+      text-align: center;
+      top: 6%;
+    }
+    @media only screen and(width: 667px) {
+      width: 38%;
+      text-align: center;
+      top: 6%;
+    }
+    @media only screen and(width: 375px) {
+      width: 38%;
+      text-align: center;
+      top: 6%;
+    }
+    @media only screen and(width: 684px) {
+      width: 38%;
+      text-align: center;
+      top: 6%;
+    }
+    @media only screen and(width: 412px) {
+      width: 38%;
+      text-align: center;
+      top: 6%;
+    }
   }
   &__lineMass {
     position: absolute;
@@ -152,14 +345,32 @@
     border-left: none;
     border-top: none;
     transform: rotate(90deg);
-    @include respond (tab-land) {
-      width: 35px;
-      right: 10%;
-      bottom: 30%;
-      transform: rotate(45deg);
+    @media only screen and(width: 1024px) {
+      width: 40px;
     }
-    @include respond (tab-port) {
-      width: 15px;
+    @media only screen and(width: 768px) {
+      width: 30px;
+    }
+    @media only screen and(width: 736px) {
+      width: 20px;
+      bottom: 30%;
+    }
+    @media only screen and(width: 414px) {
+      width: 10px;
+    }
+    @media only screen and(width: 667px) {
+      width: 16px;
+      bottom: 30%;
+    }
+    @media only screen and(width: 375px) {
+      width: 10px;
+    }
+    @media only screen and(width: 684px) {
+      width: 18px;
+    }
+    @media only screen and(width: 412px) {
+      width: 8px;
+      bottom: 30%;
     }
   }
   &--itemMass {
@@ -175,18 +386,61 @@
     border: 1px solid $color-black;
     border-left: none;
     border-top: none;
-    @include respond (tab-land) {
-      width: 15px;
+    @media only screen and(width: 1024px) {
+      width: 7px;
+      left: 35.5%;
+      top: 55%;
     }
-    @include respond (tab-port) {
+    @media only screen and(width: 768px) {
+      width: 6px;
+      left: 34.5%;
+      top: 52%;
+    }
+    @media only screen and(width: 736px) {
       width: 8px;
-      top: 57%;
+      left: 40%;
+      top: 51%;
+    }
+    @media only screen and(width: 414px) {
+      width: 4px;
+      left: 42%;
+      top: 59%;
+    }
+    @media only screen and(width: 667px) {
+      width: 8px;
+      left: 40%;
+    }
+    @media only screen and(width: 375px) {
+      width: 4px;
+      left: 40%;
+      top: 50%;
+    }
+    @media only screen and(width: 684px) {
+      width: 14px;
+      left: 38%;
+    }
+    @media only screen and(width: 412px) {
+      width: 10px;
+      top: 52%;
+      left: 35%;
     }
   }
   &--itemConfig {
     position: absolute;
     top: 40%;
     left: 1%;
+    @media only screen and(width: 736px) {
+      top: 33%;
+    }
+    @media only screen and(width: 667px) {
+      top: 35%;
+    }
+    @media only screen and(width: 375px) {
+      top: 35%;
+    }
+    @media only screen and(width: 684px) {
+      top: 35%;
+    }
   }
   &__lineTopName {
     position: absolute;
@@ -197,13 +451,39 @@
     border-left: none;
     border-top: none;
     transform: rotate(90deg);
-    @include respond (tab-land) {
-      width: 30px;
-      transform: rotate(-45deg);
-      left: 30%;
+    @media only screen and(width: 1024px) {
+      width: 26px;
+      left: 46%;
     }
-    @include respond (tab-port) {
-      width: 17px;
+    @media only screen and(width: 768px) {
+      width: 26px;
+      left: 46%;
+      bottom: 28%;
+    }
+    @media only screen and(width: 736px) {
+      width: 20px;
+      left: 50%;
+    }
+    @media only screen and(width: 414px) {
+      width: 10px;
+      left: 45%;
+      bottom: 20%;
+    }
+    @media only screen and(width: 667px) {
+      width: 18px;
+      left: 51%;
+    }
+    @media only screen and(width: 375px) {
+      width: 7px;
+    }
+    @media only screen and(width: 684px) {
+      width: 18px;
+      left: 51%;
+    }
+    @media only screen and(width: 412px) {
+      width: 6px;
+      left: 48%;
+      bottom: 26%;
     }
   }
   &__lineMiddleName {
@@ -214,7 +494,40 @@
     border: 1px solid $color-black;
     border-left: none;
     border-top: none;
-    @include respond (tab-land) {
+    @media only screen and(width: 1024px) {
+      width: 8px;
+      left: 47.9%;
+      bottom: 18%;
+    }
+    @media only screen and(width: 768px) {
+      width: 6px;
+      left: 50%;
+      bottom: 18.5%;
+    }
+    @media only screen and(width: 736px) {
+      width: 5px;
+      left: 53%;
+    }
+    @media only screen and(width: 414px) {
+      width: 6px;
+      left: 44%;
+      bottom: 12%;
+    }
+    @media only screen and(width: 667px) {
+      width: 4px;
+      left: 54%;
+      bottom: 18%;
+    }
+    @media only screen and(width: 375px) {
+      width: 0;
+      border: none;
+    }
+    @media only screen and(width: 684px) {
+      width: 10px;
+      left: 50%;
+      bottom: 17%;
+    }
+    @media only screen and(width: 412px) {
       width: 0;
       border: none;
     }
@@ -222,11 +535,22 @@
   &--itemName {
     position: absolute;
     bottom: 14%;
+    @media only screen and(width: 414px) {
+      width: 48%;
+      text-align: center;
+      bottom: 3%;
+    }
 
   }
   &--itemSymbol {
     position: absolute;
     top: 6%;
+    @media only screen and(width: 375px) {
+      left: 10%;
+    }
+    @media only screen and(width: 412px) {
+      left: 8%;
+    }
   }
   &__lineBottomSymbol {
     position: absolute;
@@ -237,13 +561,40 @@
     border-left: none;
     border-top: none;
     transform: rotate(90deg);
-    @include respond (tab-land) {
-      width: 48px;
-      transform: rotate(45deg);
-      left: 25%;
+    @media only screen and(width: 1024px) {
+      width: 50px;
+      left: 37%;
     }
-    @include respond (tab-port) {
-      width: 20px;
+    @media only screen and(width: 768px) {
+      width: 28px;
+      left: 34%;
+    }
+    @media only screen and(width: 736px) {
+      width: 32px;
+      left: 43.5%;
+    }
+    @media only screen and(width: 414px) {
+      width: 15px;
+      left: 47%;
+      top: 21.5%;
+    }
+    @media only screen and(width: 667px) {
+      width: 30px;
+      left: 47%;
+      top: 24%;
+    }
+    @media only screen and(width: 375px) {
+      width: 10px;
+      left: 45%;
+    }
+    @media only screen and(width: 684px) {
+      width: 30px;
+      left: 43%;
+      top: 24%;
+    }
+    @media only screen and(width: 412px) {
+      width: 12px;
+      left: 45%;
     }
   }
   &__lineMiddleSymbol {
@@ -254,7 +605,35 @@
     border: 1px solid $color-black;
     border-left: none;
     border-top: none;
-    @include respond (tab-land) {
+    @media only screen and(width: 1024px) {
+      width: 10px;
+      left: 43.2%;
+    }
+    @media only screen and(width: 768px) {
+      width: 0;
+    }
+    @media only screen and(width: 736px) {
+      width: 10px;
+      left: 47%;
+      top: 12%;
+    }
+    @media only screen and(width: 414px) {
+      width: 3px;
+      left: 51.4%;
+    }
+    @media only screen and(width: 667px) {
+      width: 10px;
+      left: 50%;
+    }
+    @media only screen and(width: 375px) {
+      width: 0;
+      border: none;
+    }
+    @media only screen and(width: 684px) {
+      width: 10px;
+      left: 46%;
+    }
+    @media only screen and(width: 412px) {
       width: 0;
       border: none;
     }
@@ -262,17 +641,30 @@
   &--heading {
     font-weight: 400;
     font-size: 15px;
-    @include respond (tab-land) {
-      font-size: 11px;
+    @media only screen and(width: 1024px) {
+      font-size: 13px;
     }
-    @include respond (tab-port) {
-      font-size: 7px;
-      font-weight: 700;
+    @media only screen and(width: 768px) {
+      font-size: 10px;
     }
-    @include respond (phone) {
+    @media only screen and(width: 736px) {
+      font-size: 10px;
+    }
+    @media only screen and(width: 414px) {
+      font-size: 6px;
+    }
+    @media only screen and(width: 667px) {
+      font-size: 9px;
+      font-weight: 600;
+    }
+    @media only screen and(width: 375px) {
       font-size: 5px;
-      font-weight: 700;
+    }
+    @media only screen and(width: 684px) {
+      font-size: 9px;
+    }
+    @media only screen and(width: 412px) {
+      font-size: 6px;
     }
   }
 }
-

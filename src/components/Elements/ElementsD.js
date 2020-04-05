@@ -9,6 +9,7 @@ class ElementsD extends React.Component{
     }
     render() {
         const properties = this.state.properties;
+        // console.log(properties);
         return (
             <Fragment>
                 <div className={'boxElementD boxElementD--itemSc'}>

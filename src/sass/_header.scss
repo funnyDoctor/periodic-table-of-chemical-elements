@@ -1,7 +1,7 @@
 @import './base';
 
 .header {
-  min-height: 5vh;
+  //min-height: 5vh;
   background-color: $color-primary;
   &__box {
     text-align: center;
@@ -13,17 +13,44 @@
     font-weight: 200;
     color: $color-white;
     text-transform: uppercase;
-    @include respond (tab-land) {
-     font-size: 22px;
+    //@media only screen and (min-width : 1224px) {
+    //  font-size: 30px;
+    //}
+    @media only screen and(width: 1024px) {
+      font-size: 25px;
     }
-    @include respond (tab-port) {
-      font-size: 15px;
+    @media only screen and(width: 768px) {
+      font-size: 18px;
     }
-    @include respond (phone) {
+    @media only screen and(width: 736px) {
+      font-size: 17px;
+    }
+    @media only screen and(width: 414px) {
+      font-size: 9px;
+    }
+    @media only screen and(width: 667px) {
       font-size: 12px;
+    }
+    @media only screen and(width: 375px) {
+      font-size: 9px;
+    }
+    @media only screen and(width: 684px) {
+      font-size: 16px;
+    }
+    @media only screen and(width: 412px) {
+      font-size: 9.5px;
     }
   }
   &__span {
     margin-right: 5px;
+    @media only screen and(width: 414px) {
+      margin-right: 3px;
+    }
+    @media only screen and(width: 375px) {
+      margin-right: 1px;
+    }
+    @media only screen and(width: 412px) {
+      margin-right: 1px;
+    }
   }
 }

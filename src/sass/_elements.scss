@@ -10,13 +10,28 @@
     &--heading{
       font-size: 35px;
       font-weight: 400;
-      @include respond (tab-land) {
-        font-size: 23px;
+      @media only screen and(width: 1024px) {
+        font-size: 30px;
       }
-      @include respond (tab-port) {
+      @media only screen and(width: 768px) {
+        font-size: 20px;
+      }
+      @media only screen and(width: 736px) {
         font-size: 15px;
       }
-      @include respond (phone) {
+      @media only screen and(width: 414px) {
+        font-size: 11px;
+      }
+      @media only screen and(width: 667px) {
+        font-size: 18px;
+      }
+      @media only screen and(width: 375px) {
+        font-size: 10px;
+      }
+      @media only screen and(width: 684px) {
+        font-size: 16px;
+      }
+      @media only screen and(width: 412px) {
         font-size: 10px;
       }
     }
@@ -26,14 +41,29 @@
     bottom: 1%;
     &--heading {
       font-size: 16px;
-      @include respond (tab-land) {
+      @media only screen and(width: 1024px) {
         font-size: 12px;
       }
-      @include respond (tab-port) {
+      @media only screen and(width: 768px) {
+        font-size: 11px;
+      }
+      @media only screen and(width: 736px) {
         font-size: 9px;
       }
-      @include respond (phone) {
-        font-size: 7px;
+      @media only screen and(width: 414px) {
+        font-size: 6px;
+      }
+      @media only screen and(width: 667px) {
+        font-size: 10px;
+      }
+      @media only screen and(width: 375px) {
+        font-size: 5px;
+      }
+      @media only screen and(width: 684px) {
+        font-size: 10px;
+      }
+      @media only screen and(width: 412px) {
+        font-size: 6px;
       }
     }
   }
@@ -43,14 +73,31 @@
     &--heading {
       font-size: 20px;
       font-weight: 500;
-      @include respond (tab-land) {
-        font-size: 15px;
+      @media only screen and(width: 1024px) {
+        font-size: 17px;
       }
-      @include respond (tab-port) {
+      @media only screen and(width: 768px) {
+        font-size: 12px;
+        font-weight: 400;
+      }
+      @media only screen and(width: 736px) {
+        font-size: 10px;
+        font-weight: 400;
+      }
+      @media only screen and(width: 414px) {
+        font-size: 7px;
+      }
+      @media only screen and(width: 667px) {
         font-size: 12px;
       }
-      @include respond (phone) {
-        font-size: 9px;
+      @media only screen and(width: 375px) {
+        font-size: 6px;
+      }
+      @media only screen and(width: 684px) {
+        font-size: 11px;
+      }
+      @media only screen and(width: 412px) {
+        font-size: 7px;
       }
     }
   }
@@ -58,17 +105,53 @@
     position: absolute;
     right: 2%;
     top: 30%;
+    @media only screen and(width: 736px) {
+      top: 40%;
+    }
+    @media only screen and(width: 414px) {
+      top: 40%;
+    }
+    @media only screen and(width: 667px) {
+      top: 40%;
+    }
+    @media only screen and(width: 375px) {
+      top: 40%;
+    }
+    @media only screen and(width: 684px) {
+      top: 40%;
+    }
+    @media only screen and(width: 412px) {
+      top: 40%;
+    }
     &--heading {
       font-size: 15px;
       font-weight: 400;
-      @include respond (tab-land) {
+      @media only screen and(width: 1024px) {
         font-size: 12px;
       }
-      @include respond (tab-port) {
-        font-size: 10px;
+      @media only screen and(width: 768px) {
+        font-size: 9px;
       }
-      @include respond (phone) {
+      @media only screen and(width: 736px) {
         font-size: 7px;
+        font-weight: 700;
+      }
+      @media only screen and(width: 414px) {
+        font-size: 6px;
+      }
+      @media only screen and(width: 667px) {
+        font-size: 9px;
+      }
+      @media only screen and(width: 375px) {
+        font-size: 5px;
+        font-weight: 600;
+      }
+      @media only screen and(width: 684px) {
+        font-size: 9px;
+      }
+      @media only screen and(width: 412px) {
+        font-size: 5px;
+        font-weight: 700;
       }
     }
   }
@@ -173,13 +256,28 @@
     &--heading {
       font-size: 35px;
       font-weight: 400;
-      @include respond (tab-land) {
-        font-size: 23px;
+      @media only screen and(width: 1024px) {
+        font-size: 30px;
       }
-      @include respond (tab-port) {
+      @media only screen and(width: 768px) {
+        font-size: 20px;
+      }
+      @media only screen and(width: 736px) {
         font-size: 15px;
       }
-      @include respond (phone) {
+      @media only screen and(width: 414px) {
+        font-size: 11px;
+      }
+      @media only screen and(width: 667px) {
+        font-size: 18px;
+      }
+      @media only screen and(width: 375px) {
+        font-size: 10px;
+      }
+      @media only screen and(width: 684px) {
+        font-size: 16px;
+      }
+      @media only screen and(width: 412px) {
         font-size: 10px;
       }
     }
@@ -190,14 +288,29 @@
     right: 2%;
     &--heading {
       font-size: 16px;
-      @include respond (tab-land) {
+      @media only screen and(width: 1024px) {
         font-size: 12px;
       }
-      @include respond (tab-port) {
+      @media only screen and(width: 768px) {
+        font-size: 11px;
+      }
+      @media only screen and(width: 736px) {
         font-size: 9px;
       }
-      @include respond (phone) {
-        font-size: 7px;
+      @media only screen and(width: 414px) {
+        font-size: 6px;
+      }
+      @media only screen and(width: 667px) {
+        font-size: 10px;
+      }
+      @media only screen and(width: 375px) {
+        font-size: 5px;
+      }
+      @media only screen and(width: 684px) {
+        font-size: 10px;
+      }
+      @media only screen and(width: 412px) {
+        font-size: 6px;
       }
     }
   }
@@ -207,17 +320,31 @@
     &--heading {
       font-size: 20px;
       font-weight: 500;
-      @include respond (tab-land) {
-        font-size: 15px;
+      @media only screen and(width: 1024px) {
+        font-size: 17px;
       }
-      @include respond (tab-port) {
+      @media only screen and(width: 768px) {
         font-size: 12px;
+        font-weight: 400;
       }
-      @include respond (phone) {
+      @media only screen and(width: 736px) {
+        font-size: 10px;
+        font-weight: 400;
+      }
+      @media only screen and(width: 414px) {
         font-size: 7px;
       }
-      @include respond (phone) {
-        font-size: 9px;
+      @media only screen and(width: 667px) {
+        font-size: 12px;
+      }
+      @media only screen and(width: 375px) {
+        font-size: 6px;
+      }
+      @media only screen and(width: 684px) {
+        font-size: 11px;
+      }
+      @media only screen and(width: 412px) {
+        font-size: 7px;
       }
     }
   }
@@ -225,17 +352,53 @@
     position: absolute;
     left: 2%;
     top: 30%;
+    @media only screen and(width: 736px) {
+      top: 40%;
+    }
+    @media only screen and(width: 414px) {
+      top: 40%;
+    }
+    @media only screen and(width: 667px) {
+      top: 40%;
+    }
+    @media only screen and(width: 375px) {
+      top: 40%;
+    }
+    @media only screen and(width: 684px) {
+      top: 40%;
+    }
+    @media only screen and(width: 412px) {
+      top: 40%;
+    }
     &--heading {
       font-size: 15px;
       font-weight: 400;
-      @include respond (tab-land) {
+      @media only screen and(width: 1024px) {
         font-size: 12px;
       }
-      @include respond (tab-port) {
-        font-size: 10px;
+      @media only screen and(width: 768px) {
+        font-size: 9px;
       }
-      @include respond (phone) {
+      @media only screen and(width: 736px) {
         font-size: 7px;
+        font-weight: 700;
+      }
+      @media only screen and(width: 414px) {
+        font-size: 6px;
+      }
+      @media only screen and(width: 667px) {
+        font-size: 9px;
+      }
+      @media only screen and(width: 375px) {
+        font-size: 5px;
+        font-weight: 600;
+      }
+      @media only screen and(width: 684px) {
+        font-size: 9px;
+      }
+      @media only screen and(width: 412px) {
+        font-size: 5px;
+        font-weight: 700;
       }
     }
   }
@@ -455,7 +618,6 @@
 }
 
 //P elements
-
 .boxElementP {
   background-color: $color-elementsP;
   position: relative;
@@ -466,13 +628,28 @@
     &--heading{
       font-size: 35px;
       font-weight: 400;
-      @include respond (tab-land) {
-        font-size: 23px;
+      @media only screen and(width: 1024px) {
+        font-size: 30px;
       }
-      @include respond (tab-port) {
+      @media only screen and(width: 768px) {
+        font-size: 20px;
+      }
+      @media only screen and(width: 736px) {
         font-size: 15px;
       }
-      @include respond (phone) {
+      @media only screen and(width: 414px) {
+        font-size: 11px;
+      }
+      @media only screen and(width: 667px) {
+        font-size: 18px;
+      }
+      @media only screen and(width: 375px) {
+        font-size: 10px;
+      }
+      @media only screen and(width: 684px) {
+        font-size: 16px;
+      }
+      @media only screen and(width: 412px) {
         font-size: 10px;
       }
     }
@@ -482,14 +659,29 @@
     bottom: 1%;
     &--heading {
       font-size: 16px;
-      @include respond (tab-land) {
+      @media only screen and(width: 1024px) {
         font-size: 12px;
       }
-      @include respond (tab-port) {
+      @media only screen and(width: 768px) {
+        font-size: 11px;
+      }
+      @media only screen and(width: 736px) {
         font-size: 9px;
       }
-      @include respond (phone) {
-        font-size: 7px;
+      @media only screen and(width: 414px) {
+        font-size: 6px;
+      }
+      @media only screen and(width: 667px) {
+        font-size: 10px;
+      }
+      @media only screen and(width: 375px) {
+        font-size: 5px;
+      }
+      @media only screen and(width: 684px) {
+        font-size: 10px;
+      }
+      @media only screen and(width: 412px) {
+        font-size: 6px;
       }
     }
   }
@@ -499,14 +691,31 @@
     &--heading {
       font-size: 20px;
       font-weight: 500;
-      @include respond (tab-land) {
-        font-size: 15px;
+      @media only screen and(width: 1024px) {
+        font-size: 17px;
       }
-      @include respond (tab-port) {
+      @media only screen and(width: 768px) {
+        font-size: 12px;
+        font-weight: 400;
+      }
+      @media only screen and(width: 736px) {
+        font-size: 10px;
+        font-weight: 400;
+      }
+      @media only screen and(width: 414px) {
+        font-size: 7px;
+      }
+      @media only screen and(width: 667px) {
         font-size: 12px;
       }
-      @include respond (phone) {
-        font-size: 9px;
+      @media only screen and(width: 375px) {
+        font-size: 6px;
+      }
+      @media only screen and(width: 684px) {
+        font-size: 11px;
+      }
+      @media only screen and(width: 412px) {
+        font-size: 7px;
       }
     }
   }
@@ -514,17 +723,53 @@
     position: absolute;
     right: 2%;
     top: 30%;
+    @media only screen and(width: 736px) {
+      top: 40%;
+    }
+    @media only screen and(width: 414px) {
+      top: 40%;
+    }
+    @media only screen and(width: 667px) {
+      top: 40%;
+    }
+    @media only screen and(width: 375px) {
+      top: 40%;
+    }
+    @media only screen and(width: 684px) {
+      top: 40%;
+    }
+    @media only screen and(width: 412px) {
+      top: 40%;
+    }
     &--heading {
       font-size: 15px;
       font-weight: 400;
-      @include respond (tab-land) {
+      @media only screen and(width: 1024px) {
         font-size: 12px;
       }
-      @include respond (tab-port) {
-        font-size: 10px;
+      @media only screen and(width: 768px) {
+        font-size: 9px;
       }
-      @include respond (phone) {
+      @media only screen and(width: 736px) {
         font-size: 7px;
+        font-weight: 700;
+      }
+      @media only screen and(width: 414px) {
+        font-size: 6px;
+      }
+      @media only screen and(width: 667px) {
+        font-size: 9px;
+      }
+      @media only screen and(width: 375px) {
+        font-size: 5px;
+        font-weight: 600;
+      }
+      @media only screen and(width: 684px) {
+        font-size: 9px;
+      }
+      @media only screen and(width: 412px) {
+        font-size: 5px;
+        font-weight: 700;
       }
     }
   }

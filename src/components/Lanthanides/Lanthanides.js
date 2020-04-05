@@ -11,9 +11,6 @@ class Lanthanides extends React.Component {
         const properties = this.state.properties;
         return (
             <Fragment>
-                {/*<div className={'heading'}>*/}
-                {/*    <h3 className={'heading--heading'}>Лантанойды</h3>*/}
-                {/*</div>*/}
                     <div className={'box box--right'}>
                         <div className={'box__symbol'}>
                             <h2 className={'box__symbol--heading'}>{properties[0].symbol}</h2>
@@ -124,7 +121,7 @@ class Lanthanides extends React.Component {
                             <h2 className={'box__symbol--heading'}>{properties[7].symbol}</h2>
                         </div>
                         <div className={'box__title'}>
-                            <h3 className={'box__title--heading'}>{properties[7].title}</h3>
+                            <h3 className={'box__title--heading size'}>{properties[7].title}</h3>
                         </div>
                         <div className={'box__number'}>
                             <p className={'box__number--heading'}>{properties[7].number}</p>

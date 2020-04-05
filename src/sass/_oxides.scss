@@ -7,63 +7,120 @@
   &__heading {
     font-size: 40px;
     font-weight: 300;
-    @include respond (tab-land) {
+    @media only screen and(width: 1024px) {
       font-size: 30px;
     }
-    @include respond (tab-port) {
+    @media only screen and(width: 768px) {
       font-size: 20px;
     }
-    @include respond (phone) {
-      font-size: 15px;
+    @media only screen and(width: 736px) {
+      font-size: 18px;
+    }
+    @media only screen and(width: 414px) {
+      font-size: 14px;
+    }
+    @media only screen and(width: 667px) {
+      font-size: 18px;
+    }
+    @media only screen and(width: 375px) {
+      font-size: 10px;
+    }
+    @media only screen and(width: 684px) {
+      font-size: 18px;
+    }
+    @media only screen and(width: 412px) {
+      font-size: 13px;
     }
   }
   &__span {
     font-size: 20px;
     font-weight: 400;
-    @include respond (tab-port) {
+    @media only screen and(width: 768px) {
+      font-size: 11px;
+    }
+    @media only screen and(width: 736px) {
+      font-size: 8px;
+    }
+    @media only screen and(width: 414px) {
+      font-size: 6px;
+    }
+    @media only screen and(width: 667px) {
       font-size: 10px;
+    }
+    @media only screen and(width: 375px) {
+      font-size: 6px;
+    }
+    @media only screen and(width: 684px) {
+      font-size: 10px;
+    }
+    @media only screen and(width: 412px) {
+      font-size: 7px;
     }
   }
   &__oneShift {
     position: absolute;
     top: 10%;
     right: 23%;
+    @media only screen and(width: 736px) {
+      top: 20%;
+    }
   }
   &__twoShift {
     position: absolute;
     top: 10%;
     right: 27%;
+    @media only screen and(width: 736px) {
+      top: 20%;
+    }
   }
   &__threeShift {
     position: absolute;
     top: 10%;
     right: 17%;
+    @media only screen and(width: 736px) {
+      top: 20%;
+    }
   }
   &__fourShift {
     position: absolute;
     top: 10%;
     right: 20%;
+    @media only screen and(width: 736px) {
+      top: 20%;
+    }
   }
   &__fiveShift {
     position: absolute;
     top: 10%;
     right: 15%;
+    @media only screen and(width: 736px) {
+      top: 20%;
+    }
   }
   &__sixShift {
     position: absolute;
     top: 10%;
     right: 27%;
+    @media only screen and(width: 736px) {
+      top: 20%;
+    }
   }
   &__sevenShift {
     position: absolute;
     top: 10%;
     right: 17%;
+    @media only screen and(width: 736px) {
+      top: 20%;
+    }
   }
   &__eightShift {
     position: absolute;
     top: 10%;
     right: 45%;
     border-left: none;
+    @media only screen and(width: 736px) {
+      top: 20%;
+    }
   }
   &--one {
     grid-column: 2;

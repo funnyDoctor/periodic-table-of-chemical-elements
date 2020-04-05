@@ -1,0 +1,51 @@
+[debug] [2020-04-03T12:32:38.340Z] ----------------------------------------------------------------------
+[debug] [2020-04-03T12:32:38.344Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Дмитрий\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2020-04-03T12:32:38.345Z] CLI Version:   7.16.1
+[debug] [2020-04-03T12:32:38.345Z] Platform:      win32
+[debug] [2020-04-03T12:32:38.345Z] Node Version:  v10.15.3
+[debug] [2020-04-03T12:32:38.347Z] Time:          Fri Apr 03 2020 15:32:38 GMT+0300 (GMT+03:00)
+[debug] [2020-04-03T12:32:38.348Z] ----------------------------------------------------------------------
+[debug] [2020-04-03T12:32:38.348Z] 
+[debug] [2020-04-03T12:32:38.368Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2020-04-03T12:32:38.369Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\JavaScript\Me\PSCE\periodic-system-of-chemical-elements
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2020-04-03T12:32:59.674Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2020-04-03T12:32:59.675Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2020-04-03T12:33:03.074Z] <<< HTTP RESPONSE 200
+[debug] [2020-04-03T12:33:03.141Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=100  
+ 
+[debug] [2020-04-03T12:33:14.282Z] Server Error. getaddrinfo ENOTFOUND firebase.googleapis.com firebase.googleapis.com:443
+[debug] [2020-04-03T12:33:14.452Z] FirebaseError: Server Error. getaddrinfo ENOTFOUND firebase.googleapis.com firebase.googleapis.com:443
+    at Request._callback (C:\Users\Дмитрий\AppData\Roaming\npm\node_modules\firebase-tools\lib\api.js:31:31)
+    at self.callback (C:\Users\Дмитрий\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:185:22)
+    at Request.emit (events.js:189:13)
+    at Request.EventEmitter.emit (domain.js:441:20)
+    at Request.onRequestError (C:\Users\Дмитрий\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\request\request.js:877:8)
+    at ClientRequest.emit (events.js:194:15)
+    at ClientRequest.EventEmitter.emit (domain.js:441:20)
+    at TLSSocket.socketErrorListener (_http_client.js:392:9)
+    at TLSSocket.emit (events.js:189:13)
+    at TLSSocket.EventEmitter.emit (domain.js:441:20)
+    at emitErrorNT (internal/streams/destroy.js:82:8)
+    at emitErrorAndCloseNT (internal/streams/destroy.js:50:3)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+[error] 
+[error] Error: Failed to list Firebase projects. See firebase-debug.log for more info.

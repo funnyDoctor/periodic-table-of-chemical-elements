@@ -13,27 +13,62 @@
     width: 60px;
     height: 30px;
     margin-right: 5px;
-    @include respond (tab-land) {
+    @media only screen and(width: 768px) {
+      width: 40px;
+      height: 20px;
+    }
+    @media only screen and(width: 736px) {
       width: 35px;
       height: 17px;
     }
-    @include respond (tab-port) {
-      width: 30px;
-      height: 14px;
+    @media only screen and(width: 414px) {
+     width: 15px;
+      height: 10px;
     }
-    @include respond (phone) {
-      width: 20px;
+    @media only screen and(width: 667px) {
+      width: 30px;
+      height: 12px;
+    }
+    @media only screen and(width: 375px) {
+      width: 10px;
+      height: 10px;
+    }
+    @media only screen and(width: 684px) {
+      width: 35px;
+      height: 20px;
+    }
+    @media only screen and(width: 412px) {
+      width: 18px;
       height: 10px;
     }
   }
   &__heading {
     font-size: 20px;
     font-weight: 300;
-    @include respond (tab-land) {
+    @media only screen and(width: 768px) {
+      font-size: 15px;
+    }
+    @media only screen and(width: 736px) {
       font-size: 14px;
     }
-    @include respond (tab-port) {
-      font-size: 10px;
+    @media only screen and(width: 414px) {
+      font-size: 8px;
+      font-weight: 700;
+    }
+    @media only screen and(width: 667px) {
+      font-size: 11px;
+      font-weight: 700;
+    }
+    @media only screen and(width: 375px) {
+      font-size: 7px;
+      font-weight: 700;
+    }
+    @media only screen and(width: 684px) {
+      font-size: 13px;
+    }
+    @media only screen and(width: 412px) {
+      font-size: 8px;
+      font-weight: 700;
     }
   }
   &__boxHeading {
@@ -54,19 +89,55 @@
   }
   &__copy {
     margin-left: 250px;
-    @include respond (tab-port) {
-      margin-left: 30px;
+    @media only screen and(width: 1024px) {
+      margin-left: 130px;
+    }
+    @media only screen and(width: 768px) {
+      margin-left: 50px;
+    }
+    @media only screen and(width: 736px) {
+      margin-left: 60px;
+    }
+    @media only screen and(width: 414px) {
+      margin-left: 10px;
+    }
+    @media only screen and(width: 667px) {
+      margin-left: 50px;
+    }
+    @media only screen and(width: 375px) {
+      margin-left: 20px;
+    }
+    @media only screen and(width: 684px) {
+      margin-left: 40px;
+    }
+    @media only screen and(width: 412px) {
+      margin-left: 0;
     }
     &--heading {
       font-size: 20px;
       font-weight: 300;
-      @include respond (tab-land) {
-        margin-left: 20px;
+      @media only screen and(width: 768px) {
         font-size: 15px;
       }
-      @include respond (tab-port) {
-        font-size: 10px;
-        margin-left: 0;
+      @media only screen and(width: 736px) {
+        font-size: 12px;
+      }
+      @media only screen and(width: 414px) {
+        font-size: 8px;
+        font-weight: 700;
+      }
+      @media only screen and(width: 667px) {
+        font-size: 11px;
+        font-weight: 700;
+      }
+      @media only screen and(width: 375px) {
+        font-size: 9px;
+      }
+      @media only screen and(width: 684px) {
+        font-size: 13px;
+      }
+      @media only screen and(width: 412px) {
+        font-size: 9px;
       }
     }
     &--span {
